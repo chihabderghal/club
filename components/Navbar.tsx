@@ -19,7 +19,7 @@ function Navbar() {
             </ul>
 
             <Link href="#"
-                  className="uppercase border-red-600 text-white text-center rounded-2xl p-2 bg-red-600 content-center hidden lg:flex">
+                  className="uppercase border-2 text-white text-center rounded-2xl p-2 bg-[#0d0d0d] border-[#ED1C24] content-center hidden lg:flex">
                 <Image src="/img.png" alt="event" width={38} height={38} className="flex justify-center items-center px-1 pb-[3px]"/>
                 <div className="flex justify-center items-center py-1 pt-2">
                     event
