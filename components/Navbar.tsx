@@ -4,7 +4,7 @@ import Image from "next/image";
 
 function Navbar() {
     return (
-        <nav className="py-3 px-10 flex justify-between lg:justify-around items-center bg-[#0d0d0d] text-white">
+        <nav className="py-3 px-10 flex pt-5 justify-between lg:justify-around items-center bg-[#0d0d0d] text-white">
 
             <Link href="/">
                 <Image src="/nextech.png" alt="logo" width={58} height={30}/>
@@ -19,9 +19,11 @@ function Navbar() {
             </ul>
 
             <Link href="#"
-                  className="uppercase border-red-600 text-white text-center rounded-full p-2 bg-red-600 content-center hidden lg:flex">
-                <Image src="/img.png" alt="event" width={40} height={40}/>
-                event
+                  className="uppercase border-red-600 text-white text-center rounded-2xl p-2 bg-red-600 content-center hidden lg:flex">
+                <Image src="/img.png" alt="event" width={38} height={38} className="flex justify-center items-center px-1 pb-[3px]"/>
+                <div className="flex justify-center items-center py-1 pt-2">
+                    event
+                </div>
             </Link>
 
             <Image
