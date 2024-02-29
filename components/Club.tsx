@@ -2,10 +2,10 @@ import Image from "next/image";
 
 function Club() {
     return(
-        <section className="grid grid-cols-1 py-20 px-20 gap-8 md:grid-cols-1 lg:grid-cols-2 bg-[#ED1C24] text-white content-center">
+        <section className="grid grid-cols-1 py-20 px-20 gap-8 md:grid-cols-1 lg:grid-cols-2 bg-[#ED1C24] text-white content-center lg:justify-around">
             <div className="flex flex-col justify-center items-center uppercase py-20">
                 <h1 className="text-4xl font-bold pb-10 text-center underline">About Our Club</h1>
-                <p className="font-bold text-2xl text-center">
+                <p className="font-bold text-2xl">
                     Nextech, our scientific club located in NTIC Faculty, pushes boundaries ever further.
                     It is a dynamic ship propelling us into a realm where learning exceeds traditional constraints,
                     sailing through an ocean of creativity to collect knowledge in everything related to technology.
