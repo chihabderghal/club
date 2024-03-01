@@ -5,7 +5,7 @@ import React from "react";
 function Newbie() {
     return(
         <div className="py-28">
-            <div className="bg-[#ED1C24] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 py-4 px-44 lg: justify-center">
+            <div className="bg-[#ED1C24] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 py-4 px-auto px-36 lg:justify-center">
                 <div className="flex text-center uppercase text-white text-4xl py-10 lg:justify-start">
                     jois us, and become an active memeber in our future events
                 </div>
