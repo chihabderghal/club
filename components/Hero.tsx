@@ -4,7 +4,7 @@ import React from "react";
 
 function Hero() {
     return (
-        <section className="grid gap-8 md:grid-cols-2 bg-[#0d0d0d] text-white pt-32 px-28">
+        <section className="grid gap-8 md:grid-cols-2 bg-[#0d0d0d] text-white pt-32 px-5 lg:px-28 md:px-28">
             {/* LEFT SIDE */}
             <div className="flex flex-col justify-center items-center text-center uppercase py-20">
                 <div className="text-4xl font-bold pb-6">
