@@ -4,7 +4,7 @@ import Image from "next/image";
 
 function Navbar() {
     return (
-        <nav className="py-2 px-10 flex pt- justify-between lg:justify-around items-center bg-[#0d0d0d] text-white sticky top-0 z-10">
+        <nav className="py-4 md:py-2 lg:py-2  px-10 flex pt- justify-between lg:justify-around items-center bg-[#0d0d0d] text-white sticky top-0 z-10">
             <Link href="/">
                 <Image src="/nextech.png" alt="logo" width={58} height={30}/>
             </Link>
