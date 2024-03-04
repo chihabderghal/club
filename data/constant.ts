@@ -1,4 +1,4 @@
-export const FOOTER_LINKS = [
+export const LINKS = [
     {
         title: "Event",
         link: "/event"
@@ -22,29 +22,6 @@ export const FOOTER_LINKS = [
     {
         title: "About Us",
         link: "/about-us"
-    },
-]
-
-export const NAVBAR_LINKS: { title: string, link: string }[] = [
-    {
-        title: "Members",
-        link: "/members",
-    },
-    {
-        title: "Newbie",
-        link: "/newbie",
-    },
-    {
-        title: "FAQs",
-        link: "/faqs",
-    },
-    {
-        title: "About Us",
-        link: "/about-us",
-    },
-    {
-        title: "Contact Us",
-        link: "/contact-us",
     },
 ]
 

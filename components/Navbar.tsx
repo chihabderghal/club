@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from "next/link";
 import Image from "next/image";
-import {NAVBAR_LINKS} from "@/data/constant";
+import {LINKS} from "@/data/constant";
 
 function Navbar() {
     return (
@@ -12,7 +12,7 @@ function Navbar() {
             </Link>
 
             <ul className="hidden h-full gap-12 lg:flex items-center">
-                {NAVBAR_LINKS.map((navbar) => (
+                {LINKS.map((navbar) => (
                     // eslint-disable-next-line react/jsx-key
                     <Link
                         href={navbar.link}
