@@ -1,13 +1,17 @@
-function Card() {
+type Question = {
+    question: string;
+    answer: string;
+}
+
+function Card(question: Question) {
     return(
-        <div className="border border-white my-6 lg:mx-6 text-center content-center text-white rounded-xl from-gray-800 to-black hover:scale-110 transition hover:duration-200">
-            <div className="uppercase text-4xl font-bold mx-4 py-5">
-                What is our goal in this year?
+        <div className="3 lg:mx-0 text-center content-center text-white ">
+            <div className="uppercase text-3xl font-bold mx-4 py-5">
+                {question.question}
             </div>
 
-            <div className="uppercase text-xl font-light mx-4 py-5">
-               this is the answer of the following qestion, so read it clearly.Aot
-                is the best anime in the world ,then solo leveling
+            <div className="uppercase font-light mx-2 lg:mx-12 py-5">
+                {question.answer}
             </div>
         </div>
     )
