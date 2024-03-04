@@ -25,18 +25,21 @@ export const FOOTER_LINKS = [
     },
 ]
 
-export const SOCIAL_MEDIA: {name: string, link: string}[] = [
+export const SOCIAL_MEDIA: {name: string, link: string, image_path: string}[] = [
     {
         name: "Facebook",
         link: "https://www.facebook.com/people/NextTech/61553474487971/?mibextid=ZbWKwL",
+        image_path: "/facebook.png",
     },
     {
         name: "Instagram",
         link: "https://www.instagram.com/nextech.squad/?igshid=OHFwZmNvb2QwcDVi",
+        image_path: "/instagram.png",
     },
     {
         name: "Linkdin",
         link: "#", // NO link for now
+        image_path: "/linkedin.png",
     },
 ]
 
