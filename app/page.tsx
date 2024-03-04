@@ -3,6 +3,8 @@ import Club from "@/components/Club";
 import Newbie from "@/components/Newbie";
 import Card from "@/components/Card";
 import Image from "next/image";
+import {EMAIL} from "@/data/constant";
+import React from "react";
 
 export default function Home() {
     return (
@@ -82,7 +84,8 @@ export default function Home() {
                         </form>
                     </div>
 
-                    <div className="lg:flex lg:flex-col md:flex md:flex-col md:justify-center md:my-20 md:border-l-2  md:border-l-white lg:justify-center lg:my-20 lg:border-l-2 lg:border-l-white">
+                    <div
+                        className="lg:flex lg:flex-col md:flex md:flex-col md:justify-center md:my-20 md:border-l-2  md:border-l-white lg:justify-center lg:my-20 lg:border-l-2 lg:border-l-white">
                         <h1 className="text-white text text-center text-xl font-light px-5 lg:px-20">
                             Feel free to reach us out via the form below. All you need to do is to send us an email or
                             join
@@ -92,16 +95,15 @@ export default function Home() {
                             !
                         </h1>
                         <div className="l">
-                            <div className="flex flex-row items-center my-10 justify-center md:felx md:flex-col lg:flex-row">
+                            <div
+                                className="flex flex-col items-center my-10 justify-center md:felx md:flex-col lg:flex-row">
                                 <Image src="/gmail.png" alt="gmail" width={45} height={45} className="mx-4"/>
-                                <h2 className="font-light text-white text-2xl text-center">nextchsquad@gmail.com</h2>
+                                <h2 className="font-light text-white text-2xl text-center">{EMAIL}</h2>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-
         </div>
     );
 }
