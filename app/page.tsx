@@ -21,7 +21,7 @@ export default function Home() {
                 <h1 className="uppercase text-center text-5xl pt-3 text-white font-bold">faqs</h1>
 
                 <div
-                    className="mt-10 mx-10 px-10 lg:mx-22 grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-[50px]">
+                    className="mt-10 mx-10 lg:px-10 lg:mx-22 grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-[50px]">
                     {QUESTIONS.map((question) => (
                         // eslint-disable-next-line react/jsx-key
                         <div className="border border-white rounded-xl hover:scale-110 transition hover:duration-200">
