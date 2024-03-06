@@ -1,19 +1,15 @@
 export const LINKS = [
     {
-        title: "Event",
-        link: "/event"
-    },
-    {
-        title: "FAQs",
-        link: "/faqs"
+        title: "Members",
+        link: "/members"
     },
     {
         title: "Newbie",
         link: "/Newbie"
     },
     {
-        title: "Members",
-        link: "/members"
+        title: "FAQs",
+        link: "/faqs"
     },
     {
         title: "Contact Us",
