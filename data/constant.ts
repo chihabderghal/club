@@ -12,11 +12,11 @@ export const LINKS = [
         link: "/faqs"
     },
     {
-        title: "Contact Us",
+        title: "ContactUs",
         link: "/contact-us"
     },
     {
-        title: "About Us",
+        title: "AboutUs",
         link: "/about-us"
     },
 ]

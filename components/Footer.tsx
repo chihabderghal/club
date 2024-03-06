@@ -31,7 +31,7 @@ function Footer() {
                     </div>
                     {LINKS.map((urls) => (
                         // eslint-disable-next-line react/jsx-key
-                        <div className="font-light text-start py-1">
+                        <div className="font-light py-1">
                             <ul>
                                 <Link href={urls.link}>
                                     <li>{urls.title}</li>
@@ -51,7 +51,7 @@ function Footer() {
                         <div className="font-light">
                             <ul>
                                 <Link href={social.link}>
-                                    <li className="flex flex-row items-center text-start gap-2 py-2 lg:py-0">
+                                    <li className="flex flex-row items-center gap-2 py-2 lg:py-0">
                                         <Image src={social.image_path} alt={social.name} width={20} height={20}/>
                                         {social.name}
                                     </li>
