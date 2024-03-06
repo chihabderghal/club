@@ -26,12 +26,12 @@ function Footer() {
 
                 {/* Learn More footer*/}
                 <div className="grid grid-cols-1 my-10 place-items-center lg:pl-24 lg:place-items-start">
-                    <div className="font-bold text-xl  py-2">
+                    <div className="font-bold text-xl py-2">
                         Learn More:
                     </div>
                     {LINKS.map((urls) => (
                         // eslint-disable-next-line react/jsx-key
-                        <div className="font-light text-sm py-1">
+                        <div className="font-light text-sm place-items-center text-center py-1">
                             <ul>
                                 <Link href={urls.link}>
                                     <li>{urls.title}</li>
