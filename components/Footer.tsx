@@ -31,7 +31,7 @@ function Footer() {
                     </div>
                     {LINKS.map((urls) => (
                         // eslint-disable-next-line react/jsx-key
-                        <div className="font-light text-sm place-items-center text-center py-1">
+                        <div className="font-light place-items-center text-center py-1">
                             <ul>
                                 <Link href={urls.link}>
                                     <li>{urls.title}</li>
@@ -48,7 +48,7 @@ function Footer() {
                     </div>
                     {SOCIAL_MEDIA.map((social: { name: string, link: string, image_path: string }) => (
                         // eslint-disable-next-line react/jsx-key
-                        <div className="font-light text-sm">
+                        <div className="font-light">
                             <ul>
                                 <Link href={social.link}>
                                     <li className="flex flex-row items-center gap-2 py-2 lg:py-0">
