@@ -24,7 +24,7 @@ function Footer() {
                     </div>
                 </div>
 
-                {/* Learn More */}
+                {/* Learn More footer*/}
                 <div className="grid grid-cols-1 my-10 place-items-center lg:pl-24 lg:place-items-start">
                     <div className="font-bold py-2">
                         Learn More:
