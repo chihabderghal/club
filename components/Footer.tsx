@@ -5,7 +5,7 @@ import React from "react";
 
 function Footer() {
     return (
-        <footer className="text-white px-10">
+        <footer className="text-white px-6">
             <div className="grid grid-cols-1 lg:grid-cols-4 lg:gap-8">
                 <Link href="/" className="flex flex-col items-center py-2 my-10 md:mx-17">
                     <Image src="/nextech.png" alt="nextech" width={58} height={30}/>
@@ -26,8 +26,8 @@ function Footer() {
 
                 {/* Learn More footer*/}
                 <div className="grid grid-cols-1 my-10 place-items-center lg:pl-24 lg:place-items-start">
-                    <div className="font-bold py-2">
-                        Learn More:
+                    <div className="font-bold text-xl py-2">
+                        Learn:
                     </div>
                     {LINKS.map((urls) => (
                         // eslint-disable-next-line react/jsx-key
@@ -43,8 +43,8 @@ function Footer() {
 
                 {/* Social Media */}
                 <div className="grid grid-cols-1 my-10 place-items-center text-start lg:place-items-start">
-                    <div className="font-bold py-2">
-                        Social Media:
+                    <div className="font-bold text-xl py-2">
+                        Socials:
                     </div>
                     {SOCIAL_MEDIA.map((social: { name: string, link: string, image_path: string }) => (
                         // eslint-disable-next-line react/jsx-key
