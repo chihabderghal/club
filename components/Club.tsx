@@ -23,21 +23,21 @@ function Club() {
 
             <div className="grid grid-cols-1 lg:grid-cols-2">
                 <div className="flex flex-col items-center relative">
-                    <Image src="/nexfoot2.jpg" alt="image" width="400" height="100"
+                    <Image src="/university.png" alt="image" width="400" height="100"
                            className=" border-2 border-white"/>
-                    <Image src="/nexfoot2.jpg" alt="image" width="400" height="100"
+                    <Image src="/university.png" alt="image" width="400" height="100"
                            className=" border-2 border-white"/>
-                    <Image src="/nexfoot2.jpg" alt="image" width="400" height="100"
+                    <Image src="/university.png" alt="image" width="400" height="100"
                            className=" border-2 border-white"/>
-                    <Image src="/nexfoot2.jpg" alt="image" width="400" height="100"
+                    <Image src="/university.png" alt="image" width="400" height="100"
                            className=" border-2 border-white"/>
                 </div>
                 <div className="flex flex-col items-center">
-                    <Image src="/nexfoot2.jpg" alt="image" width="400" height="100"
+                    <Image src="/university.png" alt="image" width="400" height="100"
                            className=" border-2 border-white"/>
-                    <Image src="/nexfoot.jpg" alt="image" width="400" height="100"
+                    <Image src="/university.png" alt="image" width="400" height="100"
                            className=" border-2 border-white"/>
-                    <Image src="/nextfoot3.jpg" alt="image" width="400" height="100"
+                    <Image src="/university.png" alt="image" width="400" height="100"
                            className=" border-2 border-white"/>
                 </div>
             </div>
