@@ -10,7 +10,7 @@ function Navbar() {
     return (
 
         <div
-            className={`${!isClicked ? 'py-4 md:py-2 lg:py-2 px-10 flex justify-between lg:justify-around items-center bg-[#0d0d0d] text-white sticky top-0 z-10' : 'grid grid-rows-1 py-4 px-10'}`}
+            className={`${!isClicked ? 'py-4 md:py-2 lg:py-2 px-10 flex justify-between lg:justify-around items-center bg-[#0d0d0d] text-white sticky top-0 z-10' : 'grid grid-rows-1 py-4 px-10 sticky bg-[#0d0d0d] top-0 z-10'}`}
             key="nav-bar"
         >
             {
@@ -79,7 +79,7 @@ function Navbar() {
                                     </li>
                                 ))}
                                 <Link href="#"
-                                      className="border-2 border-[#ED1C24] justify-center flex flex-row mx-auto rounded-xl items-center p-2 mt-10">
+                                      className="border-2 border-[#ED1C24] justify-center flex flex-row mx-auto rounded-xl items-center p-2 my-10 mt-10">
                                     <Image src="/img.png" alt="event" width={38} height={38}
                                            className="flex justify-center items-center px-1 pb-[3px]"/>
                                     <div className="text-white font-bold uppercase">
