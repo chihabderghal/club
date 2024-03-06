@@ -10,7 +10,7 @@ function Newbie() {
                     jois us, and become an active memeber in our future events
                 </div>
 
-               <div className="flex items-center content-center justify-center px-auto pb-10">
+               <div className="flex items-center content-center justify-center px-auto pb-10 lg:pb-0 md:pb-0">
                    <Link href="#"
                          className="uppercase text-white text-center rounded-2xl p-2 bg-[#0d0d0d] lg:flex">
                        <div className="flex justify-center items-center py-1 pt-2 uppercase px-4 font-bold">
