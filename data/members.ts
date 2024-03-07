@@ -6,11 +6,18 @@ export const MEMEBRS = [
         name: "Ibrahim Mahboub",
         team: "jocker",
         position: "president",
-        description: "A creative coder who effortlessly blends graphic design with technical expertise. With a love for both creating visually stunning designs and diving deep into lines of code, they find balance in embracing moments of relaxation and leisure.",
-        system: faWindows,
-        github: "https://github.com/abdoou-exe",
-        linkedin: "https://www.linkedin.com/in/ouchen-abdelillah-28ba092a4/",
-        instagram: "https://www.instagram.com/abdoou.exe?igsh=b2w4aDJnNDd0cG1r",
+        description: "سيّد السّادة العُظَمَاء.\n" +
+            "إمبراطور الإمبراطوريات الجليلة.\n" +
+            "حاكم الحُكّام الجَلِيل.\n" +
+            "سلطان السلاطين العَظَم.\n" +
+            "أسد الأسود العَزِيز.\n" +
+            "ذو القُوَّة القَدِيمَة.\n" +
+            "السّيد السّامي الجَليل.\n" +
+            "قائد القادة الأعْظَم",
+        system: faUbuntu,
+        github: "https://github.com/Bahimb\n",
+        linkedin: "https://www.linkedin.com/in/bahi-mahboub-a22490266?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app\n",
+        instagram: "https://www.instagram.com/bahi.mb?igsh=djJvMzA4c3Z0bjQ3\n",
     },
     {
         image_path: "/images/abdou_image.jpg",
