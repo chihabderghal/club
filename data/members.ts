@@ -2,6 +2,17 @@ import {faDebian, faUbuntu, faWindows} from "@fortawesome/free-brands-svg-icons"
 
 export const MEMEBRS = [
     {
+        image_path: "/images/bahi_image.jpg",
+        name: "Ibrahim Mahboub",
+        team: "jocker",
+        position: "president",
+        description: "A creative coder who effortlessly blends graphic design with technical expertise. With a love for both creating visually stunning designs and diving deep into lines of code, they find balance in embracing moments of relaxation and leisure.",
+        system: faWindows,
+        github: "https://github.com/abdoou-exe",
+        linkedin: "https://www.linkedin.com/in/ouchen-abdelillah-28ba092a4/",
+        instagram: "https://www.instagram.com/abdoou.exe?igsh=b2w4aDJnNDd0cG1r",
+    },
+    {
         image_path: "/images/abdou_image.jpg",
         name: "Abdou Ouchen",
         team: "design",
@@ -24,7 +35,7 @@ export const MEMEBRS = [
         instagram: "https://www.instagram.com/ayoub_slh_90?igsh=c29md2NtZ3ViMmtt\n",
     },
     {
-        image_path: "/images/rahma_image2.jpg",
+        image_path: "/images/rahma_image.jpg",
         name: "Rahma Boumaza",
         team: "Media",
         position: "member",
@@ -53,7 +64,7 @@ export const MEMEBRS = [
         description: "Passionate and still-in-progress.\n",
         system: faWindows,
         github: "https://github.com/redouane731\n",
-        linkedin: "",
+        linkedin: "https://www.linkedin.com/in/brahim-redouane-lebad-0ba6562b4/?lipi=urn%3Ali%3Apage%3Aprofile_common_profile_index%3Bf1ad8ce0-209e-4a8d-87dd-5a3ca2236407",
         instagram: "https://instagram.com/redyeboi\n",
     },
     {
