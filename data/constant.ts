@@ -1,3 +1,7 @@
+import {faDiscord, faFacebook, faInstagram, faLinkedin} from "@fortawesome/free-brands-svg-icons";
+import {faTiktok} from "@fortawesome/free-brands-svg-icons/faTiktok";
+import {IconProp} from "@fortawesome/fontawesome-svg-core";
+
 export const LINKS = [
     {
         title: "Members",
@@ -21,31 +25,36 @@ export const LINKS = [
     },
 ]
 
-export const SOCIAL_MEDIA: { name: string, link: string, image_path: string }[] = [
+export const SOCIAL_MEDIA: { name: string, link: string, image_path: string, icon: IconProp }[] = [
     {
         name: "Facebook",
         link: "https://www.facebook.com/people/NextTech/61553474487971/?mibextid=ZbWKwL",
         image_path: "/facebook.png",
+        icon: faFacebook,
     },
     {
         name: "Instagram",
         link: "https://www.instagram.com/nextech.squad/?igshid=OHFwZmNvb2QwcDVi",
         image_path: "/instagram.png",
+        icon: faInstagram,
     },
     {
         name: "Discord",
         link: "https://discord.gg/d3m3GSaDxb",
         image_path: "/discord.png",
+        icon: faDiscord,
     },
     {
         name: "TikTok",
         link: "https://www.tiktok.com/@nextech.squad?_t=8kP8KJyVyFB&_r=1",
         image_path: "/tiktok.png",
+        icon: faTiktok,
     },
     {
         name: "Linkdin",
         link: "#", // NO link for now
         image_path: "/linkedin.png",
+        icon: faLinkedin,
     },
 ]
 
