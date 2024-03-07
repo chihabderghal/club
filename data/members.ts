@@ -3,7 +3,7 @@ import {faDebian, faUbuntu, faWindows} from "@fortawesome/free-brands-svg-icons"
 export const MEMEBRS = [
     {
         image_path: "/images/bahi_image.JPG",
-        name: "Ibrahim Mahboub",
+        name: "Brahim Mahboub",
         team: "jocker",
         position: "president",
         description: "سيّد السّادة العُظَمَاء.\n" +
@@ -32,7 +32,7 @@ export const MEMEBRS = [
     },
     {
         image_path: "/images/ayoub_image.jpg",
-        name: "Ayoub abdelmoumen",
+        name: "Ayoub Abdelmoumen",
         team: "project",
         position: "member",
         description: "An enthusiastic programmer, fascinated by game development.I traverse the realms of syntax trees and color palettes. I am both architect and artist, sculpting pixels into dreams. For in this fusion lies the magic—the pixels breathe, and the code sings.",
@@ -65,7 +65,7 @@ export const MEMEBRS = [
     },
     {
         image_path: "/images/readouane_image.jpg",
-        name: "Redouane LEBAD",
+        name: "Redouane Lebad",
         team: "HR&L",
         position: "member",
         description: "Passionate and still-in-progress.\n",
@@ -75,8 +75,8 @@ export const MEMEBRS = [
         instagram: "https://instagram.com/redyeboi\n",
     },
     {
-        image_path: "/images/rimah_image.png",
-        name: "Boursas Rimah",
+        image_path: "/images/rimah_image.jpg",
+        name: "Rimah Boursas",
         team: "Media",
         position: "member",
         description: "I'm all about design and social media fun. As a club member, I handle our videos and brochures, crafting captivating content to keep our audience engaged QUERY OK.",
