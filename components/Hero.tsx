@@ -22,7 +22,9 @@ function Hero() {
                 <div className="flex flex-row my-4 gap-4 ">
                     {SOCIAL_MEDIA.map((social) => (
                         // eslint-disable-next-line react/jsx-key
-                        <FontAwesomeIcon icon={social.icon} width={25} height={25} className="hover:scale-125 hover:duration-300"/>
+                        <Link href={social.link}>
+                            <FontAwesomeIcon icon={social.icon} width={25} height={25} className="hover:scale-125 hover:duration-300 cursor-pointer3"/>
+                        </Link>
                     ))}
                 </div>
             </div>
