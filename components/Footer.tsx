@@ -2,6 +2,8 @@ import Link from "next/link";
 import Image from "next/image";
 import {COPY, EMAIL, LINKS, LOCATION, RIGHT, SOCIAL_MEDIA} from "@/data/constant";
 import React from "react";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {IconProp} from "@fortawesome/fontawesome-svg-core";
 
 function Footer() {
     return (
@@ -46,13 +48,13 @@ function Footer() {
                     <div className="font-bold text-xl py-2">
                         Social Media:
                     </div>
-                    {SOCIAL_MEDIA.map((social: { name: string, link: string, image_path: string }) => (
+                    {SOCIAL_MEDIA.map((social: { name: string, link: string, image_path: string, icon: IconProp }) => (
                         // eslint-disable-next-line react/jsx-key
                         <div className="font-light">
                             <ul>
                                 <Link href={social.link}>
                                     <li className="flex flex-row items-center gap-2 py-2 lg:py-0">
-                                        <Image src={social.image_path} alt={social.name} width={20} height={20}/>
+                                        <FontAwesomeIcon icon={social.icon} width={20} height={20}/>
                                         {social.name}
                                     </li>
                                 </Link>
