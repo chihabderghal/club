@@ -2,7 +2,7 @@ import {faDebian, faUbuntu, faWindows} from "@fortawesome/free-brands-svg-icons"
 
 export const MEMEBRS = [
     {
-        image_path: "/images/bahi_image.jpg",
+        image_path: "/images/bahi_image.JPG",
         name: "Ibrahim Mahboub",
         team: "jocker",
         position: "president",
