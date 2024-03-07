@@ -2,6 +2,7 @@ import Image from "next/image";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faGithub, faInstagram, faLinkedin, faWindows,} from "@fortawesome/free-brands-svg-icons";
 import Link from "next/link";
+import {IconProp} from "@fortawesome/fontawesome-svg-core";
 
 type Member = {
     image_path: string;
@@ -9,6 +10,7 @@ type Member = {
     team: string;
     position: string;
     descritpion: string;
+    system: IconProp;
     github: string;
     linkedin: string;
     instagram: string;
@@ -18,13 +20,13 @@ type Member = {
 function MemeberCard(member: Member) {
     return (
         <div className="lg:mx-0 text-center content-end  text-white border-4 rounded-2xl">
-            <div>
-                <div className="flex justify-center mt-10">
-                    <Image src={member.image_path} alt="image" className="rounded-full " width={240} height={240}/>
+            <div className="flex flex-col items-center">
+                <div className="flex justify-center mt-10 ">
+                    <Image src={member.image_path} alt="image" className="rounded-full border-2ddiU border-white" width={240} height={240}/>
                 </div>
                 <div className="py-5 flex flex-row justify-center items-center">
                     <h1 className="font-bold text-xl px-3 items-center justify-center text-center">{member.name}</h1>
-                    <FontAwesomeIcon icon={faWindows} width={35} height={35}/>
+                    <FontAwesomeIcon icon={member.system} width={35} height={35}/>
                 </div>
 
                 <div className="flex justify-center gap-2 pb-6">
@@ -38,7 +40,7 @@ function MemeberCard(member: Member) {
                     </div>
                 </div>
 
-                <div className="py-auto mx-5 mb-5 text-center flex justify-center items-start h-[200px] lg:h-[210px] md:h-[150px] font-light">
+                <div className="py-auto mx-5 mb-5 text-center flex justify-center items-start h-[220px] lg:h-[210px] md:h-[150px] font-light">
                     {member.descritpion}
                 </div>
             </div>
