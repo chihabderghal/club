@@ -52,7 +52,7 @@ export const MEMEBRS = [
         description: "a coder, videographer, and video editor. With a passion for technology and a creative eye, she excels in both digital craftsmanship and visual storytelling. From writing elegant code to capturing captivating moments, nihad brings a unique blend of technical expertise and artistic vision to every project she undertakes.",
         system: faWindows,
         github: "",
-        linkedin: "https://www.linkedin.com/me?trk=p_mwlite_feed_updates-secondary_nav\n",
+        linkedin: "https://www.linkedin.com/in/nihad-bentaleb-55a46629a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         instagram: "https://www.instagram.com/b__nihad?igsh=ajhrbXgya3g2Mzls\n",
     },
     {
