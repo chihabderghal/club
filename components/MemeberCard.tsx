@@ -22,7 +22,7 @@ function MemeberCard(member: Member) {
         <div className="lg:mx-0 text-center content-end  text-white border-4 rounded-2xl">
             <div className="flex flex-col items-center">
                 <div className="flex justify-center mt-10 ">
-                    <Image src={member.image_path} alt="image" className="rounded-full border-2 border-white"
+                    <Image src={member.image_path} alt="image" className="rounded-full border-2 border-white relative"
                            width={240} height={240}/>
                 </div>
                 <div className="py-5 flex flex-row justify-center items-center">
@@ -38,14 +38,14 @@ function MemeberCard(member: Member) {
                     <div
                         className={`border-2  text-center  relative p-2 rounded-3xl uppercase 
                         ${member.position == "president" ? 'border-yellow-400 text-yellow-400' : 'text-green-600 border-green-600'}
-                        ${member.position == "leader" ? 'border-sky-400 text-sky-400' : 'text-green-600 border-green-600'}
+                        ${member.position == "leader" || member.position == "vice_president"? 'border-sky-400 text-sky-400' : 'text-green-600 border-green-600'}
                         `}>
                         {member.position}
                     </div>
                 </div>
 
                 <div
-                    className="py-auto mx-5 mb-5 text-center flex justify-center items-center lg:items-center h-[260px] lg:h-[210px] md:h-[150px] font-light">
+                    className="py-auto mx-5 mb-5 text-center text-xl flex justify-center items-center lg:items-center h-[260px] lg:h-[210px] md:h-[150px] font-light">
                     {member.descritpion}
                 </div>
             </div>
