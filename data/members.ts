@@ -212,4 +212,15 @@ export const MEMEBRS = [
         linkedin: "https://www.linkedin.com/in/brahim-redouane-lebad-0ba6562b4/?lipi=urn%3Ali%3Apage%3Aprofile_common_profile_index%3Bf1ad8ce0-209e-4a8d-87dd-5a3ca2236407",
         instagram: "https://instagram.com/redyeboi\n",
     },
+    {
+        image_path: "/images/samy_image.jpg",
+        name: "Smay Bencheikh",
+        team: Team.PROJECT,
+        position: Position.MEMBER,
+        description: "Je suis Samy j’ai 22 ans, je suis étudiante en informatique M1/STIC développeur web (full stack).",
+        system: faWindows,
+        github: "",
+        linkedin: "",
+        instagram: "https://www.instagram.com/samybench66?igsh=cXQyb2tweG16YnQ2&utm_source=qr",
+    },
 ]
