@@ -1,6 +1,6 @@
 import Image from "next/image";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faGithub, faInstagram, faLinkedin, faWindows,} from "@fortawesome/free-brands-svg-icons";
+import {faGithub, faInstagram, faLinkedin,} from "@fortawesome/free-brands-svg-icons";
 import Link from "next/link";
 import {IconProp} from "@fortawesome/fontawesome-svg-core";
 
