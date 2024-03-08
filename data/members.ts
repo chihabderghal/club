@@ -214,13 +214,13 @@ export const MEMEBRS = [
     },
     {
         image_path: "/images/samy_image.jpg",
-        name: "Smay Bencheikh",
+        name: "Samy Bencheikh",
         team: Team.PROJECT,
         position: Position.MEMBER,
         description: "Je suis Samy j’ai 22 ans, je suis étudiante en informatique M1/STIC développeur web (full stack).",
         system: faWindows,
         github: "",
         linkedin: "",
-        instagram: "https://www.instagram.com/samybench66?igsh=cXQyb2tweG16YnQ2&utm_source=qr",
+        instagram: "https://www.instagram.com/samybench66?igsh=cXQyb2tweG16YnQ2&utm_source=qrd",
     },
 ]
