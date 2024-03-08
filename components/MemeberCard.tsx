@@ -22,7 +22,7 @@ function MemeberCard(member: Member) {
         <div className="lg:mx-0 text-center content-end  text-white border-4 rounded-2xl">
             <div className="flex flex-col items-center">
                 <div className="flex justify-center mt-10 ">
-                    <Image src={member.image_path} alt="image" className="rounded-full border-2ddiU border-white"
+                    <Image src={member.image_path} alt="image" className="rounded-full border-2 border-white"
                            width={240} height={240}/>
                 </div>
                 <div className="py-5 flex flex-row justify-center items-center">
