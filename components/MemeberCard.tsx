@@ -45,7 +45,7 @@ function MemeberCard(member: Member) {
                 </div>
 
                 <div
-                    className="py-auto mx-5 mb-5 text-center text-xl flex justify-center items-center lg:items-center h-[260px] lg:h-[280px] md:h-[150px] font-light">
+                    className="py-auto mx-5 mb-5 text-center text-xl flex justify-center items-center lg:items-center h-[350px] lg:h-[280px] md:h-[150px] font-light">
                     {member.descritpion}
                 </div>
             </div>
