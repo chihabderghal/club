@@ -1,11 +1,25 @@
 import {faDebian, faUbuntu, faWindows} from "@fortawesome/free-brands-svg-icons";
 
+enum Team {
+    MEDIA = "Media&Marketing",
+    PROJECT = "Project",
+    HUMAN_RECOURSES_AND_LOGISTICS = "HR&L",
+    DESIGN = "DESIGN",
+}
+
+enum Position {
+    MEMBER = "member",
+    LEADER = "leader",
+    PRESIDENT = "president",
+    JOCKER = "Jocker"
+}
+
 export const MEMEBRS = [
     {
         image_path: "/images/bahi_image.JPG",
         name: "Brahim Mahboub",
-        team: "jocker",
-        position: "president",
+        team: Position.JOCKER,
+        position: Position.PRESIDENT,
         description: "سيّد السّادة العُظَمَاء.\n" +
             "إمبراطور الإمبراطوريات الجليلة.\n" +
             "حاكم الحُكّام الجَلِيل.\n" +
@@ -22,8 +36,8 @@ export const MEMEBRS = [
     {
         image_path: "/images/abdou_image.jpg",
         name: "Abdou Ouchen",
-        team: "design",
-        position: "leader",
+        team: Team.DESIGN,
+        position: Position.LEADER,
         description: "A creative coder who effortlessly blends graphic design with technical expertise. With a love for both creating visually stunning designs and diving deep into lines of code, they find balance in embracing moments of relaxation and leisure.",
         system: faWindows,
         github: "https://github.com/abdoou-exe",
@@ -33,8 +47,8 @@ export const MEMEBRS = [
     {
         image_path: "/images/ayoub_image.jpg",
         name: "Ayoub Abdelmoumen",
-        team: "project",
-        position: "member",
+        team: Team.PROJECT,
+        position: Position.MEMBER,
         description: "An enthusiastic programmer, fascinated by game development.I traverse the realms of syntax trees and color palettes. I am both architect and artist, sculpting pixels into dreams. For in this fusion lies the magic—the pixels breathe, and the code sings.",
         system: faWindows,
         github: "",
@@ -44,8 +58,8 @@ export const MEMEBRS = [
     {
         image_path: "/images/rimah_image.jpg",
         name: "Rimah Boursas",
-        team: "Media",
-        position: "member",
+        team: Team.MEDIA,
+        position: Position.MEMBER,
         description: "I'm all about design and social media fun. As a club member, I handle our videos and brochures, crafting captivating content to keep our audience engaged QUERY OK.",
         system: faUbuntu,
         github: "",
@@ -55,8 +69,8 @@ export const MEMEBRS = [
     {
         image_path: "/images/nada_image.jpg",
         name: "Nada Boulkroune",
-        team: "DESIGN",
-        position: "member",
+        team: Team.DESIGN,
+        position: Position.MEMBER,
         description: "I am a creative individual with a passion for design, showcasing a keen eye for aesthetics and a desire to bring ideas to life visually. My love for designing spans various forms, and I likely stay updated on current trends to continually enhance my skills and produce innovative work.",
         system: faWindows,
         github: "https://github.com/nadablk",
@@ -66,8 +80,8 @@ export const MEMEBRS = [
     {
         image_path: "/images/readouane_image.jpg",
         name: "Redouane Lebad",
-        team: "HR&L",
-        position: "member",
+        team: Team.HUMAN_RECOURSES_AND_LOGISTICS,
+        position: Position.MEMBER,
         description: "Passionate and still-in-progress.\n",
         system: faWindows,
         github: "https://github.com/redouane731\n",
@@ -77,8 +91,8 @@ export const MEMEBRS = [
     {
         image_path: "/images/rahma_image.jpg",
         name: "Rahma Boumaza",
-        team: "Media",
-        position: "member",
+        team: Team.MEDIA,
+        position: Position.MEMBER,
         description: "As a marketing team member i bring a unique blend of creativity and analytical thinking, i thrive on brainstorming innovative strategies to promote our club's activities and engage our target audience. ",
         system: faWindows,
         github: "",
@@ -88,8 +102,8 @@ export const MEMEBRS = [
     {
         image_path: "/images/chihab_image.jpg",
         name: "Chihab Derghal",
-        team: "Project",
-        position: "member",
+        team: Team.PROJECT,
+        position: Position.LEADER,
         description: "Are you familiar with Linux, i3, and prefer working on the backend? Do you use Nvim? If so, you are trully a legend mate. #RTFM",
         system: faDebian,
         github: "https://github.com/chihabderghal",
