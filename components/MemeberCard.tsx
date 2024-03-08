@@ -26,7 +26,7 @@ function MemeberCard(member: Member) {
                            width={240} height={240}/>
                 </div>
                 <div className="py-5 flex flex-row justify-center items-center">
-                    <h1 className="font-bold text-xl px-3 items-center justify-center text-center">{member.name}</h1>
+                    <h1 className="font-bold text-xl px-3  items-center justify-center text-center">{member.name}</h1>
                     <FontAwesomeIcon icon={member.system} width={35} height={35}/>
                 </div>
 
@@ -45,7 +45,7 @@ function MemeberCard(member: Member) {
                 </div>
 
                 <div
-                    className="py-auto mx-5 mb-5 text-center text-xl flex justify-center items-center lg:items-center h-[350px] lg:h-[280px] md:h-[150px] font-light">
+                    className="py-auto mx-5 mb-5 text-center text-xl flex justify-center items-center lg:items-center h-[350px] lg:h-[280px] md:h-[280px] font-light">
                     {member.descritpion}
                 </div>
             </div>
