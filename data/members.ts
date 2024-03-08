@@ -202,7 +202,7 @@ export const MEMEBRS = [
         instagram: "https://www.instagram.com/mi___na__0611/",
     },
     {
-        image_path: "/images/readouane_image.jpg",
+        image_path: "/images/redouane_image.jpg",
         name: "Redouane Lebad",
         team: Team.HUMAN_RECOURSES_AND_LOGISTICS,
         position: Position.MEMBER,
@@ -233,5 +233,16 @@ export const MEMEBRS = [
         github: "https://github.com/Nassr-Allah\n",
         linkedin: "https://www.linkedin.com/in/nassr-allah-guetatlia-00a8911b4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         instagram: "https://www.instagram.com/the.virtuosoo?igsh=cWN2aGZwOHhoczAw",
+    },
+    {
+        image_path: "/images/shams_image.jpg",
+        name: "rahma chemselassil LEKHAL",
+        team: Team.MEDIA,
+        position: Position.LEADER,
+        description: "Hey there, I'm Rahma, your go-to for all the things about media and marketing! Get ready for a fresh and fun approach to share our enthusiasm. Let's make our mark together!",
+        system: faWindows,
+        github: "https://github.com/shamss-lk",
+        linkedin: "https://www.linkedin.com/in/rahma-chemselassil-lekhal-8591b22b9",
+        instagram: "https://www.instagram.com/shams_lk?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
     },
 ]
