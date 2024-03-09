@@ -8,14 +8,11 @@ import {QUESTION_EVENT} from "@/data/accordion";
 import {EVENT_NAME} from "@/data/constants";
 
 function event() {
-    const isDisabeld: boolean = true;
     const itemClasses = {
         title: "flex justify-center items-center text-center font-bold px-3",
         content: "flex justify-center items-center text-center font-light text-xl",
         indicator: "text-2xl",
     }
-    const defaultContent =
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
     return (
         <div>
             <div className="flex flex-col items-center gap-6">
@@ -38,7 +35,8 @@ function event() {
             {
                 QUESTION_EVENT.map((question) => (
                     // eslint-disable-next-line react/jsx-key
-                    <div className="flex justify-center bg-[#ED1C24] my-3 rounded-xl items-center text-white align-middle mx-3 lg:mx-40">
+                    <div
+                        className="flex justify-center bg-[#ED1C24] my-3 rounded-xl items-center text-white align-middle mx-3 lg:mx-40">
                         <Accordion
                             className="max-w-4xl flex justify-center items-center my-3"
                             itemClasses={itemClasses}
