@@ -67,3 +67,5 @@ export const CONTACT_MESSAGE = "Don't hesitate to contact us using the form belo
 
 export const COPY: string = "Copyright";
 export const RIGHT: string = "2024 - All rights reserved";
+
+export const EVENT_NAME: string = "nextopia"
