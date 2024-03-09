@@ -10,7 +10,7 @@ import {EVENT_NAME} from "@/data/constants";
 function event() {
     const isDisabeld: boolean = true;
     const itemClasses = {
-        title: "flex justify-center items-center text-center font-bold px-3 bg-[#ED1C24]",
+        title: "flex justify-center items-center text-center font-bold px-3",
         content: "flex justify-center items-center text-center font-light text-xl",
         indicator: "text-2xl",
     }
@@ -38,9 +38,9 @@ function event() {
             {
                 QUESTION_EVENT.map((question) => (
                     // eslint-disable-next-line react/jsx-key
-                    <div className="flex justify-center items-center text-white align-middle mx-3 lg:mx-40">
+                    <div className="flex justify-center bg-[#ED1C24] my-3 rounded-xl items-center text-white align-middle mx-3 lg:mx-40">
                         <Accordion
-                            className="max-w-4xl flex justify-center items-center bg-[#ED1C24] rounded-xl my-3"
+                            className="max-w-4xl flex justify-center items-center my-3"
                             itemClasses={itemClasses}
                         >
                             <AccordionItem key="1"
