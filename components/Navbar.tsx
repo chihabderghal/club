@@ -78,7 +78,7 @@ function Navbar() {
                                         </Link>
                                     </li>
                                 ))}
-                                <Link href="/event"
+                                <Link href={"/event"}
                                       className="border-2 border-[#ED1C24] justify-center flex flex-row mx-auto rounded-xl items-center p-2 my-10 mt-10">
                                     <Image src="/img.png" alt="event" width={38} height={38}
                                            className="flex justify-center items-center px-1 pb-[3px]"/>
