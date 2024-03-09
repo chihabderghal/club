@@ -52,7 +52,7 @@ function Footer() {
                         // eslint-disable-next-line react/jsx-key
                         <div className="font-light">
                             <ul>
-                                <Link href={social.link}>
+                                <Link href={social.link} target={"_blank"}>
                                     <li className="flex flex-row items-center gap-2 py-2 lg:py-0">
                                         <FontAwesomeIcon icon={social.icon} width={20} height={20}/>
                                         {social.name}
