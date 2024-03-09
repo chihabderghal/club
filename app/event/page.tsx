@@ -3,15 +3,14 @@
 import Image from "next/image";
 import React from "react";
 import Link from "next/link";
-import {Accordion, AccordionItem} from "@nextui-org/react";
+import {Accordion, AccordionItem, Card, CardFooter} from "@nextui-org/react";
 import {QUESTION_EVENT} from "@/data/accordion";
 import {EVENT_NAME} from "@/data/constants";
-import {Card, CardFooter} from "@nextui-org/card";
 
 function event() {
     const isDisabeld: boolean = true;
     const itemClasses = {
-        title: "flex justify-center items-center text-center font-bold px-3",
+        title: "flex justify-center items-center text-center font-bold px-3 bg-[#ED1C24]",
         content: "flex justify-center items-center text-center font-light text-xl",
         indicator: "text-2xl",
     }
@@ -68,13 +67,13 @@ function event() {
                 >
                     <Image
                         alt="Woman listing to music"
-                        className="object-cover"
+                        className="object-cover rounder-t-large"
                         height={500}
                         src="/Workshop.jpg"
                         width={500}
                     />
                     <CardFooter
-                        className="justify-center bg-white py-1 shadow-small">
+                        className="justify-center bg-white rounded-b-large py-1 shadow-small">
                         <p className="text-black/80 font-bold">Available soon.</p>
                     </CardFooter>
                 </Card>
@@ -85,13 +84,13 @@ function event() {
                 >
                     <Image
                         alt="Woman listing to music"
-                        className="object-cover"
+                        className="object-cover rounded-t-large"
                         height={500}
                         src="/Conference.jpg"
                         width={500}
                     />
                     <CardFooter
-                        className="justify-center bg-white py-1 shadow-small">
+                        className="justify-center bg-white rounded-b-large py-1 shadow-small">
                         <p className="text-black/80 font-bold">Available soon.</p>
                     </CardFooter>
                 </Card>
@@ -110,13 +109,13 @@ function event() {
                     >
                         <Image
                             alt="Woman listing to music"
-                            className="object-cover"
+                            className="object-cover rounded-t-large"
                             height={600}
                             src="/draw.png"
                             width={600}
                         />
                         <CardFooter
-                            className="justify-center bg-white py-1 shadow-small">
+                            className="justify-center bg-white rounded-b-large py-1 shadow-small">
                             <p className="text-black/80 font-bold">Available soon.</p>
                         </CardFooter>
                     </Card>
