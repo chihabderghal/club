@@ -3,10 +3,10 @@
 import Image from "next/image";
 import React from "react";
 import Link from "next/link";
-import {Accordion, AccordionItem, Button} from "@nextui-org/react";
+import {Accordion, AccordionItem} from "@nextui-org/react";
 import {QUESTION_EVENT} from "@/data/accordion";
 import {EVENT_NAME} from "@/data/constants";
-import {Card, CardFooter, CardHeader} from "@nextui-org/card";
+import {Card, CardFooter} from "@nextui-org/card";
 
 function event() {
     const isDisabeld: boolean = true;
