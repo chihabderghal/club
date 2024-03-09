@@ -37,8 +37,8 @@ function MemeberCard(member: Member) {
                     </div>
                     <div
                         className={`border-2  text-center  relative p-2 rounded-3xl uppercase 
-                        ${member.position == "president" ? 'border-yellow-400 text-yellow-400' : 'text-green-600 border-green-600'}
-                        ${member.position == "leader" || member.position == "vice_president"? 'border-sky-400 text-sky-400' : 'text-green-600 border-green-600'}
+                        ${member.position == "president" || member.position == "vice_president" ? 'border-yellow-400 text-yellow-400' : 'text-green-600 border-green-600'}
+                        ${member.position == "leader" ? 'border-sky-400 text-sky-400' : 'text-green-600 border-green-600'}
                         `}>
                         {member.position}
                     </div>
