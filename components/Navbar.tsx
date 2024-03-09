@@ -3,7 +3,7 @@
 import React, {useState} from 'react'
 import Link from "next/link";
 import Image from "next/image";
-import {LINKS} from "@/data/constant";
+import {LINKS} from "@/data/constants";
 
 function Navbar() {
     const [isClicked, SetIsClicked] = useState(false);

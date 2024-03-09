@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import {COPY, EMAIL, LINKS, LOCATION, RIGHT, SOCIAL_MEDIA} from "@/data/constant";
+import {COPY, EMAIL, LINKS, LOCATION, RIGHT, SOCIAL_MEDIA} from "@/data/constants";
 import React from "react";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {IconProp} from "@fortawesome/fontawesome-svg-core";

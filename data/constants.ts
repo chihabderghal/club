@@ -13,7 +13,7 @@ export const LINKS = [
     },
     {
         title: "FAQs",
-        link: "/faqs"
+        link: "/#faqs"
     },
     {
         title: "Contact Us",
@@ -21,7 +21,7 @@ export const LINKS = [
     },
     {
         title: "About Us",
-        link: "/about-us"
+        link: "/#about-us"
     },
 ]
 

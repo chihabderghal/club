@@ -3,7 +3,7 @@ import Club from "@/components/Club";
 import Newbie from "@/components/Newbie";
 import Card from "@/components/Card";
 import Image from "next/image";
-import {CONTACT_MESSAGE, EMAIL} from "@/data/constant";
+import {CONTACT_MESSAGE, EMAIL} from "@/data/constants";
 import React from "react";
 import {QUESTIONS} from "@/data/questions";
 import Link from "next/link";
@@ -17,9 +17,8 @@ export default function Home() {
 
             <div className="border border-white hidden my-6 mx-[400px] lg:flex md:hidden"/>
 
-            <div className="mb-20">
+            <div className="mb-20" id="faqs">
                 <h1 className="uppercase text-center text-5xl pt-3 text-white font-bold">faqs</h1>
-
                 <div
                     className="mt-10 mx-10 lg:px-10 lg:mx-22 grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-[50px]">
                     {QUESTIONS.map((question) => (
@@ -95,7 +94,7 @@ export default function Home() {
                             <div
                                 className="flex flex-col items-center my-5 justify-center md:felx md:flex-col lg:flex-row">
                                 <Image src="/gmail.png" alt="gmail" width={45} height={45} className="mx-4"/>
-                                <h2 className="font-light text-white text-2xl text-center">
+                                <h2 className="font-bold text-white text-2xl text-center">
                                     <Link href="mailto:nextechsquad@gmail.com">
                                         {EMAIL}
                                     </Link>
