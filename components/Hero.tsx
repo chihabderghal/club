@@ -15,7 +15,7 @@ function Hero() {
                     <h1>exellence</h1>
                 </div>
 
-                <Link href="/event"
+                <Link href={"/event"}
                       className="uppercase font-bold text-white text-center rounded-xl p-3 bg-[#0d0d0d] border-2 border-[#ED1C24] content-cente lg:flex hover:bg-[#ED1C24] hover:duration-500">
                     event
                 </Link>

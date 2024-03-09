@@ -38,7 +38,7 @@ function Navbar() {
 
             {
                 !isClicked ? (
-                    <Link href="/event"
+                    <Link href={"/event"}
                           className="uppercase border-2 text-white text-center rounded-2xl p-2 bg-[#0d0d0d] border-[#ED1C24] content-center hidden lg:flex hover:bg-[#ED1C24] hover:duration-500">
                         <Image src="/img.png" alt="event" width={38} height={38}
                                className="flex justify-center items-center px-1 pb-[3px]"/>
