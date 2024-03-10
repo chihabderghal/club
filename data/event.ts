@@ -1,5 +1,3 @@
-import exp from "node:constants";
-
 export const EVENT_QUESTIONS: { question: string, answer: string }[] = [
     {
         question: "Are there leadership opportunities IT club?",
