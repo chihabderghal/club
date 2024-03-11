@@ -1,5 +1,4 @@
-import {faDiscord, faFacebook, faInstagram, faLinkedin} from "@fortawesome/free-brands-svg-icons";
-import {faTiktok} from "@fortawesome/free-brands-svg-icons/faTiktok";
+import {faDiscord, faFacebook, faInstagram, faLinkedin, faTiktok} from "@fortawesome/free-brands-svg-icons";
 import {IconProp} from "@fortawesome/fontawesome-svg-core";
 
 export const LINKS = [
@@ -9,7 +8,7 @@ export const LINKS = [
     },
     {
         title: "Newbie",
-        link: "/Newbie"
+        link: "/#newbie"
     },
     {
         title: "FAQs",
@@ -23,7 +22,7 @@ export const LINKS = [
         title: "About Us",
         link: "/#about-us"
     },
-]
+];
 
 export const SOCIAL_MEDIA: { name: string, link: string, image_path: string, icon: IconProp }[] = [
     {
@@ -56,16 +55,18 @@ export const SOCIAL_MEDIA: { name: string, link: string, image_path: string, ico
         image_path: "/linkedin.png",
         icon: faLinkedin,
     },
-]
+];
 
 export const LOCATION: string = "Université Constantine 2 Abdelhamid Mehri – Nouvelle ville Ali Mendjeli BP :" +
     " 67A, Constantine – Algérie La Nouvelle Ville Ali Mendjeli, 25016";
 export const EMAIL: string = "nextechsquad@gmail.com";
 
 export const CONTACT_MESSAGE = "Don't hesitate to contact us using the form below. You can also email us or even come by to meet." +
-    " Our direct messages are open on all social platforms, be sure that a response will find its way back to you right away! "
+    " Our direct messages are open on all social platforms, be sure that a response will find its way back to you right away! ";
 
 export const COPY: string = "Copyright";
 export const RIGHT: string = "2024 - All rights reserved";
 
-export const EVENT_NAME: string = "nextopia"
+export const EVENT_NAME: string = "nextopia";
+
+export const FORM_LINK = "#";
