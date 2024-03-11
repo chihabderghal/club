@@ -256,4 +256,15 @@ export const MEMEBRS = [
         linkedin: "https://www.linkedin.com/in/yasmine-kassa-4404b8269?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         instagram: "https://www.instagram.com/yasminekassa26?igsh=MXUzMjZ6Ymo2cDNuNw==",
     },
+    {
+        image_path: "/images/yassine_image.jpg",
+        name: "Yacine Boukaba",
+        team: Team.HUMAN_RECOURSES_AND_LOGISTICS,
+        position: Position.LEADER,
+        description: "",
+        system: faWindows,
+        github: "https://github.com/Yacinebka20",
+        linkedin: "https://www.linkedin.com/in/yacine-boukaba-6365382b9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app&fbclid=IwAR1bmyF6vhTm0_p4Y3bBXv577DBSVq0u_iFRh_U9QgOeqAU7Fa_eW5Ic1mM",
+        instagram: "https://www.instagram.com/yacinebka/?igsh=MWtjdmN4NzN0YW1iNQ%3D%3D&fbclid=IwAR0EGCCt3U526QYZH8xv4N3uLr54Y3vvWoWAbBDke6rS4piGkfULyUJjDuA",
+    },
 ]
