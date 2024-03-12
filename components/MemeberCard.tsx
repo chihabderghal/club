@@ -27,7 +27,7 @@ function MemeberCard(member: Member) {
                 </div>
                 <div className="py-5 flex flex-row justify-center items-center">
                     <h1 className="font-bold text-xl px-3  items-center justify-center text-center">{member.name}</h1>
-                    <FontAwesomeIcon icon={member.system}className="w-7 h-7 hover:scale-125 hover:duration-300 cursor-pointer"/>
+                    <FontAwesomeIcon icon={member.system} className="w-7 h-7 hover:scale-125 hover:duration-300 cursor-pointer"/>
                 </div>
 
                 <div className="flex justify-center gap-2 pb-6">
