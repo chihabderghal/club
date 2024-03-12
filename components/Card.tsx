@@ -10,7 +10,7 @@ function Card(question: Question) {
                 {question.question}
             </div>
 
-            <div className="font-light font-customFont mx-2 lg:mx-12 py-5">
+            <div className="font-light font-customFont text-xl mx-2 lg:mx-12 py-5">
                 {question.answer}
             </div>
         </div>
