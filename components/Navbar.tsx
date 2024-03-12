@@ -28,7 +28,8 @@ function Navbar() {
                     <li>
                         <Link
                             href={navbar.link}
-                            className="cursor-pointer transition hover:scale-125 hover:border-b-2"
+                            className="cursor-pointer text-[18px] hover:border-b-2"
+                            key={navbar.title}
                         >
                             {navbar.title}
                         </Link>
@@ -74,7 +75,7 @@ function Navbar() {
                                     // eslint-disable-next-line react/jsx-key
                                     <li className="text-white py-5 hover:bg-[#ED1C24] rounded-2xl">
                                         <Link href={link.link}
-                                              className="hover:border-b-2 font-customFont hover:border-white">{link.title}
+                                              className="hover:border-b-2  hover:border-white">{link.title}
                                         </Link>
                                     </li>
                                 ))}
