@@ -1,14 +1,39 @@
+"use client";
+
 import Hero from "@/components/Hero";
 import Club from "@/components/Club";
 import Newbie from "@/components/Newbie";
 import Card from "@/components/Card";
 import Image from "next/image";
 import {CONTACT_MESSAGE, EMAIL} from "@/data/constants";
-import React from "react";
+import {useRef, useState} from "react";
 import {QUESTIONS} from "@/data/questions";
 import Link from "next/link";
+import emailjs from "@emailjs/browser";
 
 export default function Home() {
+
+    const [loading, SetLoading] = useState(false);
+    const formRef: any = useRef();
+
+    const sendEmail = (e: any) => {
+        e.preventDefault();
+
+        emailjs
+            .sendForm('service_8psbm9z', 'template_sw9ojm5', formRef.current, {
+                publicKey: 'UN299tlK4_r7Zy92p',
+            })
+            .then(
+                () => {
+                    SetLoading(true);
+                    e.target.reset();
+                },
+                (error) => {
+                    SetLoading(false);
+                    console.log('FAILED...', error.text);
+                }
+            );
+    };
     return (
         <div>
             <Hero/>
@@ -54,32 +79,40 @@ export default function Home() {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
 
                     <div className="my-20 mx-3 md:px-10 lg:px-10">
-                        <form>
+                        <form ref={formRef} onSubmit={sendEmail}>
                             <div className="flex flex-col justify-center text-white py-3">
                                 <label className="font-bold px-4 py-1">Name:</label>
                                 <input type="text"
                                        placeholder="John Doe"
+                                       name={"user_name"}
+                                       required
                                        className="font-light bg-[#0d0d0d] border border-white rounded-xl py-3 px-4"/>
                             </div>
 
                             <div className="flex flex-col justify-center text-white py-3">
                                 <label className="font-bold px-4 py-1">Email:</label>
                                 <input type="email"
+                                       name={"user_email"}
                                        placeholder="exemple123@gmail.com"
+                                       required
                                        className="font-light bg-[#0d0d0d] border border-white rounded-xl py-3 px-4"/>
                             </div>
 
                             <div className="flex flex-col justify-center text-white py-3">
                                 <label className="font-bold px-4 py-1">Message:</label>
                                 <textarea cols={25} rows={10} placeholder="Write Your Message"
+                                          name={"message"}
+                                          required
                                           className="font-light bg-[#0d0d0d] border border-white rounded-xl py-4 px-4"></textarea>
                             </div>
 
                             <div className="flex justify-center my-5">
                                 <button
-                                    className="uppercase font-bold text-white text-center rounded-xl p-3 bg-[#0d0d0d] border-2 border-[#ED1C24] content-cente lg:flex hover:bg-[#ED1C24] hover:duration-500"
+                                    type={"submit"}
+                                    value={"send"}
+                                    className={`uppercase font-bold text-white text-center rounded-xl p-3 ${loading ? 'bg-green-500 border-2 border-white content-center' : 'bg-[#0d0d0d] border-2 border-[#ED1C24] content-center lg:flex hover:bg-[#ED1C24] hover:duration-500'} `}
                                 >
-                                    Send Message
+                                    {loading ? 'Sent Successfully' : 'Send Message'}
                                 </button>
                             </div>
                         </form>

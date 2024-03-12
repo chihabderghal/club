@@ -1,27 +1,28 @@
 "use client";
 
-import { CONTACT_MESSAGE, EMAIL } from "@/data/constants";
-import { useRef } from "react";
+import {CONTACT_MESSAGE, EMAIL} from "@/data/constants";
+import {useRef, useState} from "react";
 import Link from "next/link";
 import Image from "next/image";
 import emailjs from "@emailjs/browser";
 
 function Contact() {
     const formRef: any = useRef();
+    const [loading, SetLoading] = useState(false);
 
     const sendEmail = (e: any) => {
         e.preventDefault();
-
         emailjs
-            .sendForm('service_ejznu8r', 'template_n378c8n', formRef.current, {
-                publicKey: 'uxsJFArSk1zNNT8L7',
+            .sendForm('service_8psbm9z', 'template_sw9ojm5', formRef.current, {
+                publicKey: 'UN299tlK4_r7Zy92p',
             })
             .then(
                 () => {
-                    console.log('SUCCESS!');
+                    SetLoading(true);
                     e.target.reset();
                 },
                 (error) => {
+                    SetLoading(false);
                     console.log('FAILED...', error.text);
                 }
             );
@@ -40,7 +41,9 @@ function Contact() {
                             <input type="text"
                                    placeholder="John Doe"
                                    name={"user_name"}
-                                   className="font-light bg-[#0d0d0d] border border-white rounded-xl py-3 px-4" />
+                                   className="font-light bg-[#0d0d0d] border border-white rounded-xl py-3 px-4"
+                                   required
+                            />
                         </div>
 
                         <div className="flex flex-col justify-center text-white py-3">
@@ -48,13 +51,15 @@ function Contact() {
                             <input type="email"
                                    name={"user_email"}
                                    placeholder="exemple123@gmail.com"
-                                   className="font-light bg-[#0d0d0d] border border-white rounded-xl py-3 px-4" />
+                                   required
+                                   className="font-light bg-[#0d0d0d] border border-white rounded-xl py-3 px-4"/>
                         </div>
 
                         <div className="flex flex-col justify-center text-white py-3">
                             <label className="font-bold px-4 py-1">Message:</label>
                             <textarea cols={25} rows={10} placeholder="Write Your Message"
                                       name={"message"}
+                                      required
                                       className="font-light bg-[#0d0d0d] border border-white rounded-xl py-4 px-4"></textarea>
                         </div>
 
@@ -62,21 +67,22 @@ function Contact() {
                             <button
                                 type={"submit"}
                                 value={"send"}
-                                className="uppercase font-bold text-white text-center rounded-xl p-3 bg-[#0d0d0d] border-2 border-[#ED1C24] content-cente lg:flex hover:bg-[#ED1C24] hover:duration-500"
+                                className={`uppercase font-bold text-white text-center rounded-xl p-3 ${loading ? 'bg-green-500 border-2 border-white content-center' : 'bg-[#0d0d0d] border-2 border-[#ED1C24] content-center lg:flex hover:bg-[#ED1C24] hover:duration-500'} `}
                             >
-                                Send Message
+                                {loading ? 'Sent Successfully' : 'Send Message'}
                             </button>
                         </div>
                     </form>
                 </div>
 
-                <div className="lg:flex lg:flex-col md:flex md:flex-col md:justify-center md:my-20 lg:justify-center lg:my-20">
+                <div
+                    className="lg:flex lg:flex-col md:flex md:flex-col md:justify-center md:my-20 lg:justify-center lg:my-20">
                     <h1 className="text-white text text-center text-xl font-light px-5 md:px-24 lg:px-52">
                         {CONTACT_MESSAGE}
                     </h1>
                     <div className="">
                         <div className="flex flex-col items-center my-5 justify-center md:felx md:flex-col lg:flex-row">
-                            <Image src="/gmail.png" alt="gmail" width={45} height={45} className="mx-4" />
+                            <Image src="/gmail.png" alt="gmail" width={45} height={45} className="mx-4"/>
                             <h2 className="font-bold text-white text-2xl text-center">
                                 <Link href="mailto:nextechsquad@gmail.com">
                                     {EMAIL}
