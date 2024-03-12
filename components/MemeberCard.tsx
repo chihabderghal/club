@@ -51,13 +51,13 @@ function MemeberCard(member: Member) {
             </div>
             <div className="flex flex-row justify-center py-5 gap-10 ">
                 <Link href={member.github} className="hover:scale-125 hover:duration-300">
-                    <FontAwesomeIcon icon={faGithub} className="w-6 h-6 hover:scale-125 hover:duration-300 cursor-pointer"/>
+                    <FontAwesomeIcon icon={faGithub} className="w-8 h-8 hover:scale-125 hover:duration-300 cursor-pointer"/>
                 </Link>
                 <Link href={member.linkedin} className="hover:scale-125 hover:duration-300">
-                    <FontAwesomeIcon icon={faLinkedin} className="w-6 h-6 hover:scale-125 hover:duration-300 cursor-pointer"/>
+                    <FontAwesomeIcon icon={faLinkedin} className="w-8 h-8 hover:scale-125 hover:duration-300 cursor-pointer"/>
                 </Link>
                 <Link href={member.instagram} className="hover:scale-125 hover:duration-300">
-                    <FontAwesomeIcon icon={faInstagram} className="w-6 h-6 hover:scale-125 hover:duration-300 cursor-pointer"/>
+                    <FontAwesomeIcon icon={faInstagram} className="w-8 h-8 hover:scale-125 hover:duration-300 cursor-pointer"/>
                 </Link>
             </div>
         </div>
