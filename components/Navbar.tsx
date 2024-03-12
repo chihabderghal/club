@@ -72,9 +72,9 @@ function Navbar() {
                             <ul className="flex flex-col justify-center text-center pt-20">
                                 {LINKS.map((link) => (
                                     // eslint-disable-next-line react/jsx-key
-                                    <li className="text-white font-abc py-5 hover:bg-[#ED1C24] rounded-2xl">
+                                    <li className="text-white py-5 hover:bg-[#ED1C24] rounded-2xl">
                                         <Link href={link.link}
-                                              className="hover:border-b-2 hover:border-white">{link.title}
+                                              className="hover:border-b-2 font-customFont hover:border-white">{link.title}
                                         </Link>
                                     </li>
                                 ))}
