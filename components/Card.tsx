@@ -6,11 +6,11 @@ type Question = {
 function Card(question: Question) {
     return(
         <div className="lg:mx-0 text-center content-center text-white ">
-            <div className="uppercase text-3xl font-bold mx-4 py-5">
+            <div className="text-3xl font-bold mx-4 py-5">
                 {question.question}
             </div>
 
-            <div className="uppercase font-light mx-2 lg:mx-12 py-5">
+            <div className="font-light font-customFont mx-2 lg:mx-12 py-5">
                 {question.answer}
             </div>
         </div>
