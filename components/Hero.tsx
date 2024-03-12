@@ -23,7 +23,7 @@ function Hero() {
                     {SOCIAL_MEDIA.map((social) => (
                         // eslint-disable-next-line react/jsx-key
                         <Link href={social.link} target={"_blank"}>
-                            <FontAwesomeIcon icon={social.icon} width={25} height={25} className="hover:scale-125 hover:duration-300 cursor-pointer3"/>
+                            <FontAwesomeIcon icon={social.icon} className="w-6 h-6 hover:scale-125 hover:duration-300 cursor-pointer"/>
                         </Link>
                     ))}
                 </div>

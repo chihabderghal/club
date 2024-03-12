@@ -54,7 +54,7 @@ function Footer() {
                             <ul>
                                 <Link href={social.link} target={"_blank"}>
                                     <li className="flex flex-row items-center gap-2 py-2 lg:py-0">
-                                        <FontAwesomeIcon icon={social.icon} width={20} height={20}/>
+                                        <FontAwesomeIcon icon={social.icon} className="w-6 h-6"/>
                                         {social.name}
                                     </li>
                                 </Link>

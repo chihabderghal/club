@@ -27,7 +27,7 @@ function MemeberCard(member: Member) {
                 </div>
                 <div className="py-5 flex flex-row justify-center items-center">
                     <h1 className="font-bold text-xl px-3  items-center justify-center text-center">{member.name}</h1>
-                    <FontAwesomeIcon icon={member.system} width={35} height={35}/>
+                    <FontAwesomeIcon icon={member.system}className="w-7 h-7 hover:scale-125 hover:duration-300 cursor-pointer"/>
                 </div>
 
                 <div className="flex justify-center gap-2 pb-6">
@@ -51,13 +51,13 @@ function MemeberCard(member: Member) {
             </div>
             <div className="flex flex-row justify-center py-5 gap-10 ">
                 <Link href={member.github} className="hover:scale-125 hover:duration-300">
-                    <FontAwesomeIcon icon={faGithub} width={30} height={30}/>
+                    <FontAwesomeIcon icon={faGithub} className="w-6 h-6 hover:scale-125 hover:duration-300 cursor-pointer"/>
                 </Link>
                 <Link href={member.linkedin} className="hover:scale-125 hover:duration-300">
-                    <FontAwesomeIcon icon={faLinkedin} width={30} height={30}/>
+                    <FontAwesomeIcon icon={faLinkedin} className="w-6 h-6 hover:scale-125 hover:duration-300 cursor-pointer"/>
                 </Link>
                 <Link href={member.instagram} className="hover:scale-125 hover:duration-300">
-                    <FontAwesomeIcon icon={faInstagram} width={30} height={30}/>
+                    <FontAwesomeIcon icon={faInstagram} className="w-6 h-6 hover:scale-125 hover:duration-300 cursor-pointer"/>
                 </Link>
             </div>
         </div>
