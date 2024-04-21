@@ -32,12 +32,13 @@ export const EVENT_QUESTIONS: { question: string, answer: string }[] = [
 export const WP = [
     {
         name: "workshop",
-        image: "/Workshop.jpg",
+        // image: "/Workshop.jpg",
+        image: "/workshop.png",
         isAvailable: false,
     },
     {
         name: "conference",
-        image: "/Conference.jpg",
+        image: "/conference.png",
         isAvailable: false,
     },
 ]
