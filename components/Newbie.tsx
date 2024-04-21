@@ -1,13 +1,19 @@
 import Link from "next/link";
 import React from "react";
 import {FORM_LINK} from "@/data/constants";
+import {JetBrains_Mono} from "next/font/google";
+
+const jetbrain_mono = JetBrains_Mono({
+    weight: '400',
+    subsets: ['latin'],
+});
 
 function Newbie() {
     return(
-        <div className="py-28" id="newbie">
+        <div className={`py-28 ${jetbrain_mono.className}`} id="newbie">
             <div className="bg-[#ED1C24] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 py-4 px-auto px-5 lg:px-40 lg:justify-center">
-                <div className="flex text-center uppercase text-white text-4xl py-10 lg:justify-start">
-                    jois us, and become an active memeber in our future events
+                <div className="flex text-center uppercase text-white text-4xl py-10 lg:justify-start ">
+                    Join us, and become an active member in our future events
                 </div>
 
                <div className="flex items-center content-center justify-center px-auto pb-10 lg:pb-0 md:pb-0">
