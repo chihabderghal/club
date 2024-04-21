@@ -1,4 +1,4 @@
-import {faDebian, faLinux, faUbuntu, faWindows} from "@fortawesome/free-brands-svg-icons";
+import {faFedora, faLinux, faSteam, faUbuntu, faWindows} from "@fortawesome/free-brands-svg-icons";
 
 enum Team {
     MEDIA = "Media&Marketing",
@@ -22,14 +22,7 @@ export const MEMEBRS = [
         name: "Brahim Mahboub",
         team: Position.JOCKER,
         position: Position.PRESIDENT,
-        description: "سيّد السّادة العُظَمَاء.\n" +
-            "إمبراطور الإمبراطوريات الجليلة.\n" +
-            "حاكم الحُكّام الجَلِيل.\n" +
-            "سلطان السلاطين العَظَم.\n" +
-            "أسد الأسود العَزِيز.\n" +
-            "ذو القُوَّة القَدِيمَة.\n" +
-            "السّيد السّامي الجَليل.\n" +
-            "قائد القادة الأعْظَم",
+        description: "Hey its bahi a cs students passionate about everything I like exploring new stuff and trying everything my favourite saying is 'a jack of all trades is a master if none but so often better than a master of one'",
         system: faUbuntu,
         github: "https://github.com/Bahimb\n",
         linkedin: "https://www.linkedin.com/in/bahi-mahboub-a22490266?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app\n",
@@ -41,8 +34,8 @@ export const MEMEBRS = [
         team: Team.DESIGN,
         position: Position.LEADER,
         description: "A creative coder who effortlessly blends graphic design with technical expertise. With a love for both creating visually stunning designs and diving deep into lines of code, they find balance in embracing moments of relaxation and leisure.",
-        system: faWindows,
-        github: "https://github.com/abdoou-exe",
+        system: faSteam,
+        github: "https://github.com/ouchenabdelillah",
         linkedin: "https://www.linkedin.com/in/ouchen-abdelillah-28ba092a4/",
         instagram: "https://www.instagram.com/abdoou.exe?igsh=b2w4aDJnNDd0cG1r",
     },
@@ -63,7 +56,7 @@ export const MEMEBRS = [
         team: Team.PROJECT,
         position: Position.LEADER,
         description: "Are you familiar with Linux, i3, and prefer working on the backend? Do you use Nvim? If so, you are trully a legend mate. #RTFM",
-        system: faDebian,
+        system: faFedora,
         github: "https://github.com/chihabderghal",
         linkedin: "https://www.linkedin.com/in/chihab-eddine-derghal-223145249?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         instagram: "https://www.instagram.com/chihab._dgl?igsh=azM1ZHJpMWUybGky",
@@ -207,8 +200,8 @@ export const MEMEBRS = [
         team: Team.HUMAN_RECOURSES_AND_LOGISTICS,
         position: Position.MEMBER,
         description: "Passionate and still-in-progress.\n",
-        system: faWindows,
-        github: "https://github.com/redouane731\n",
+        system: faFedora,
+        github: "https://github.com/theredcap1",
         linkedin: "https://www.linkedin.com/in/brahim-redouane-lebad-0ba6562b4/?lipi=urn%3Ali%3Apage%3Aprofile_common_profile_index%3Bf1ad8ce0-209e-4a8d-87dd-5a3ca2236407",
         instagram: "https://instagram.com/redyeboi\n",
     },
