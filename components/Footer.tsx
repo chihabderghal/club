@@ -7,7 +7,7 @@ import {IconProp} from "@fortawesome/fontawesome-svg-core";
 
 function Footer() {
     return (
-        <footer className="text-white">
+        <footer className="text-white container mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-4 lg:gap-8">
                 <Link href="/" className="flex flex-col items-center py-2 my-10 md:mx-17">
                     <Image src="/nextech.png" alt="nextech" width={58} height={30}/>
