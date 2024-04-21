@@ -13,8 +13,8 @@ function Contact() {
     const sendEmail = (e: any) => {
         e.preventDefault();
         emailjs
-            .sendForm('service_8psbm9z', 'template_sw9ojm5', formRef.current, {
-                publicKey: 'UN299tlK4_r7Zy92p',
+            .sendForm('service_nodzvrk', 'template_jcvgqps', formRef.current, {
+                publicKey: 'FBylfKE2NNWEYdt8w',
             })
             .then(
                 () => {
@@ -29,7 +29,7 @@ function Contact() {
     };
 
     return (
-        <div className="">
+        <div className="container mx-auto">
             <h1 className="uppercase text-center text-5xl pt-24 lg:pt-20 text-white font-bold">Contact us</h1>
 
             <div className="grid grid-cols-1">
