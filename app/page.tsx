@@ -10,6 +10,8 @@ import {useRef, useState} from "react";
 import {QUESTIONS} from "@/data/questions";
 import Link from "next/link";
 import emailjs from "@emailjs/browser";
+import Divider from "@/components/Divider";
+import {JetBrains_Mono} from "next/font/google";
 
 export default function Home() {
 
@@ -20,8 +22,8 @@ export default function Home() {
         e.preventDefault();
 
         emailjs
-            .sendForm('service_8psbm9z', 'template_sw9ojm5', formRef.current, {
-                publicKey: 'UN299tlK4_r7Zy92p',
+            .sendForm('service_nodzvrk', 'template_jcvgqps', formRef.current, {
+                publicKey: 'FBylfKE2NNWEYdt8w',
             })
             .then(
                 () => {
@@ -34,15 +36,17 @@ export default function Home() {
                 }
             );
     };
+
+
     return (
         <div>
             <Hero/>
-            <div className="border border-white hidden my-6 mx-[400px] lg:flex md:hidden"/>
+            <Divider/>
             <Club/>
 
-            <div className="border border-white hidden my-6 mx-[400px] lg:flex md:hidden"/>
+            <Divider/>
 
-            <div className="mb-20" id="faqs">
+            <div className="mb-20 container mx-auto" id="faqs">
                 <h1 className="uppercase text-center text-5xl pt-3 text-white font-bold">faqs</h1>
                 <div
                     className="mt-10 mx-10 lg:px-10 lg:mx-22 grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-[50px]">
@@ -55,11 +59,11 @@ export default function Home() {
                 </div>
             </div>
 
-            <div className="border border-white hidden my-6 mx-[400px] lg:flex md:hidden"/>
+            <Divider/>
             <Newbie/>
-            <div className="border border-white hidden my-6 mx-[400px] lg:flex md:hidden"/>
+            <Divider/>
 
-            <div>
+            <div className="container mx-auto">
                 <h1 className="uppercase text-center text-5xl pt-3 text-white font-bold">our partners</h1>
                 <div
                     className="mt-24 mx-5 px-24 grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-[50px] place-items-center mb-20">
@@ -72,9 +76,9 @@ export default function Home() {
                 </div>
             </div>
 
-            <div className="border border-white hidden my-6 mx-[400px] lg:flex md:hidden"/>
+            <Divider/>
 
-            <div>
+            <div className="container mx-auto">
                 <h1 className="uppercase text-center text-5xl pt-3 text-white font-bold">Contact us</h1>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
 
