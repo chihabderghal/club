@@ -32,8 +32,9 @@ function event() {
 
             <h1 className="uppercase text-center text-5xl py-10 text-white font-bold">{EVENT_NAME}</h1>
 
-            {
-                EVENT_QUESTIONS.map((question) => (
+            <div className="container mx-auto">
+                {
+                    EVENT_QUESTIONS.map((question) => (
                     // eslint-disable-next-line react/jsx-key
                     <div
                         className="flex justify-center bg-[#ED1C24] my-3 rounded-xl items-center text-white mx-3 lg:mx-56">
@@ -51,7 +52,8 @@ function event() {
                         </Accordion>
                     </div>
                 ))
-            }
+                }
+            </div>
 
             <div className="border border-white hidden my-16 mx-[400px] lg:flex md:hidden"/>
 
@@ -77,7 +79,7 @@ function event() {
                                 />
                                 <CardFooter
                                     className={`justify-center ${wp.isAvailable ? 'bg-success' : 'bg-warning'} rounded-b-large py-1 shadow-small`}>
-                                    <p className="text-black font-bold uppercase">{wp.isAvailable ? "Available, click to Navigate" : "Available soon"}</p>
+                                    <p className="text-black font-bold uppercase">{wp.isAvailable ? `Available, click to Navigate` : `${wp.name} -- Available soon`}</p>
                                 </CardFooter>
                             </Card>
                         </Link>
