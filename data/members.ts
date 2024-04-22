@@ -263,7 +263,7 @@ export const MEMEBRS = [
     {
         image_path: "/images/younes_image.png",
         name: "Boujada Younes",
-        team: Team.HUMAN_RECOURSES_AND_LOGISTICS,
+        team: Team.MEDIA,
         position: Position.VICE_PRISIDENT,
         description: "A seasoned portraits & product photographer and a social media manager, adept at capturing the essence of subjects." +
             " With a mastery of Lightroom editing, crafting visual stories that resonate. Let me illuminate your world through the art of photography.",
