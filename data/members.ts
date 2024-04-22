@@ -73,17 +73,6 @@ export const MEMEBRS = [
         instagram: "https://instagram.com/redyeboi\n",
     },
     {
-        image_path: "/images/ayoub_image.jpg",
-        name: "Ayoub Abdelmoumen",
-        team: Team.PROJECT,
-        position: Position.MEMBER,
-        description: "An enthusiastic programmer, fascinated by game development.I traverse the realms of syntax trees and color palettes. I am both architect and artist, sculpting pixels into dreams. For in this fusion lies the magic—the pixels breathe, and the code sings.",
-        system: faWindows,
-        github: "",
-        linkedin: "",
-        instagram: "https://www.instagram.com/ayoub_slh_90?igsh=c29md2NtZ3ViMmtt\n",
-    },
-    {
         image_path: "/images/djad_image.png",
         name: "Djad Benemssaoud",
         team: Team.PROJECT,
@@ -93,6 +82,17 @@ export const MEMEBRS = [
         github: "https://github.com/jaden-dz25",
         linkedin: "",
         instagram: "https://www.instagram.com/djedbsd/",
+    },
+    {
+        image_path: "/images/ayoub_image.jpg",
+        name: "Ayoub Abdelmoumen",
+        team: Team.PROJECT,
+        position: Position.MEMBER,
+        description: "An enthusiastic programmer, fascinated by game development.I traverse the realms of syntax trees and color palettes. I am both architect and artist, sculpting pixels into dreams. For in this fusion lies the magic—the pixels breathe, and the code sings.",
+        system: faWindows,
+        github: "",
+        linkedin: "",
+        instagram: "https://www.instagram.com/ayoub_slh_90?igsh=c29md2NtZ3ViMmtt\n",
     },
     {
         image_path: "/images/nada_image.jpg",
@@ -259,5 +259,17 @@ export const MEMEBRS = [
         github: "https://github.com/Yacinebka20",
         linkedin: "https://www.linkedin.com/in/yacine-boukaba-6365382b9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app&fbclid=IwAR1bmyF6vhTm0_p4Y3bBXv577DBSVq0u_iFRh_U9QgOeqAU7Fa_eW5Ic1mM",
         instagram: "https://www.instagram.com/yacinebka/?igsh=MWtjdmN4NzN0YW1iNQ%3D%3D&fbclid=IwAR0EGCCt3U526QYZH8xv4N3uLr54Y3vvWoWAbBDke6rS4piGkfULyUJjDuA",
+    },
+    {
+        image_path: "/images/younes_image.png",
+        name: "Boujada Younes",
+        team: Team.HUMAN_RECOURSES_AND_LOGISTICS,
+        position: Position.VICE_PRISIDENT,
+        description: "A seasoned portraits & product photographer and a social media manager, adept at capturing the essence of subjects." +
+            " With a mastery of Lightroom editing, crafting visual stories that resonate. Let me illuminate your world through the art of photography.",
+        system: faWindows,
+        github: "",
+        linkedin: "https://dz.linkedin.com/in/younes-boudjada",
+        instagram: "https://www.instagram.com/dmaniaxys?igsh=MWdsdXUxbWhpNmtjbQ==",
     },
 ];

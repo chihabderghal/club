@@ -67,9 +67,13 @@ function Footer() {
             </div>
 
 
-            <div className="text-white text-xs font-light text-center py-4">
+            <div className="text-white text-xs font-light text-center py-3">
                 {COPY} &copy; {RIGHT}
+                <br/>
+                <br/>
+                Made by Chihab Derghal
             </div>
+
         </footer>
     );
 }
