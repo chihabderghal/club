@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import {COPY, EMAIL, LINKS, LOCATION, RIGHT, SOCIAL_MEDIA} from "@/data/constants";
+import {COPY, EMAIL, FOOTER_LINKS, LOCATION, RIGHT, SOCIAL_MEDIA} from "@/data/constants";
 import React from "react";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {IconProp} from "@fortawesome/fontawesome-svg-core";
@@ -31,7 +31,7 @@ function Footer() {
                     <div className="font-bold text-xl py-2">
                         Learn More:
                     </div>
-                    {LINKS.map((urls) => (
+                    {FOOTER_LINKS.map((urls) => (
                         // eslint-disable-next-line react/jsx-key
                         <div className="font-light place-items-center text-center py-1">
                             <ul>
@@ -71,7 +71,9 @@ function Footer() {
                 {COPY} &copy; {RIGHT}
                 <br/>
                 <br/>
-                Made by Chihab Derghal
+                <Link href={"https://github.com/chihabderghal/"} target="_blank">
+                    Made by <span className="font-bold">Chihab Derghal</span>
+                </Link>
             </div>
 
         </footer>

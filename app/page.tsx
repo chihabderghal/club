@@ -6,12 +6,11 @@ import Newbie from "@/components/Newbie";
 import Card from "@/components/Card";
 import Image from "next/image";
 import {CONTACT_MESSAGE, EMAIL} from "@/data/constants";
-import {useRef, useState} from "react";
+import React, {useRef, useState} from "react";
 import {QUESTIONS} from "@/data/questions";
 import Link from "next/link";
 import emailjs from "@emailjs/browser";
 import Divider from "@/components/Divider";
-import {JetBrains_Mono} from "next/font/google";
 
 export default function Home() {
 
@@ -37,7 +36,6 @@ export default function Home() {
             );
     };
 
-
     return (
         <div>
             <Hero/>
@@ -61,6 +59,32 @@ export default function Home() {
 
             <Divider/>
             <Newbie/>
+            <div className="border border-white hidden my-6 mx-[400px] lg:flex md:hidden" id={"app"}/>
+
+            <div className="container mx-auto my-20">
+                <div className="flex flex-col justify-center items-center gap-20">
+                    <div className="text-white flex flex-col items-center text-center lg:w-[650px]">
+                        <span className="text-4xl mx-4">
+                        Download our app for a new experimental experience and enjoy seamless browsing!
+                        </span>
+
+                        <Link href={"https://app.mediafire.com/i5oobpjqhhbb9"}
+                              className="uppercase font-bold text-white text-center rounded-xl p-3 my-5 bg-[#0d0d0d] border-2 border-[#ED1C24] content-cente lg:flex hover:bg-[#ED1C24] hover:duration-500"
+                              target="_blank"
+                        >
+                            download
+                        </Link>
+                    </div>
+                    <div className="flex flex-col gap-5">
+                        <Image src="/application.png" alt="app image" width={330} height={330} className=""/>
+                        <div className={`text-white text-center text-4xl font-bold`}>
+                            Scan me
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
             <Divider/>
 
             <div className="container mx-auto">

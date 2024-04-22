@@ -11,8 +11,8 @@ export const LINKS = [
         link: "/#newbie"
     },
     {
-        title: "FAQs",
-        link: "/#faqs"
+        title: "NextBot",
+        link: "/#app"
     },
     {
         title: "Contact Us",
@@ -24,6 +24,32 @@ export const LINKS = [
     },
 ];
 
+export const FOOTER_LINKS = [
+    {
+        title: "Members",
+        link: "/members"
+    },
+    {
+        title: "Newbie",
+        link: "/#newbie"
+    },
+    {
+        title: "NextBot",
+        link: "/#app"
+    },
+    {
+        title: "Faqs",
+        link: "/#faqs"
+    },
+    {
+        title: "Contact Us",
+        link: "/contact-us"
+    },
+    {
+        title: "About Us",
+        link: "/#about-us"
+    },
+];
 export const SOCIAL_MEDIA: { name: string, link: string, image_path: string, icon: IconProp }[] = [
     {
         name: "Facebook",
