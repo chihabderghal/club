@@ -1,13 +1,17 @@
-version: "3.8"
-
 services:
   app: 
+    image: nextech:latest
+    container_name: nextech
     build:
         context: .
         dockerfile: docker/dev.Dockerfile 
-    image: nextech:latest
-    container_name: nextech
     ports:
       - "3000:3000" 
     volumes:
-      - .:/app
+      - .:/app:rw
+    networks:
+      - net
+
+networks:
+  net:
+
