@@ -15,7 +15,7 @@ const ubuntu: NextFont = Ubuntu_Mono({
 function Club() {
     return (
         <section
-            className="grid grid-cols-1 py-10 px-3 gap-0 md:grid-cols-1 lg:grid-cols-2 bg-[#ED1C24] my-28 text-white content-center lg:justify-around lg:pl-16"
+            className="grid grid-cols-1 py-10 px-3 gap-0 md:grid-cols-1 lg:grid-cols-2 bg-[#ED1D26] my-28 text-white content-center lg:justify-around lg:pl-16"
             id="about-us"
         >
             <div className="flex flex-col justify-center text-center  lg:mx-10 py-5 lg:py-20">
